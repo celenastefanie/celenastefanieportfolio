@@ -1,0 +1,125 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html { box-sizing: border-box; -moz-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.skip-links {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  height: 0;
+}
+
+.skip-links a {
+  position: absolute;
+  top: -10em;
+}
+
+body{
+  margin: 0;
+  text-align: center;
+}
+
+header {
+  text-align: center;
+}
+
+li {
+  font-family: "orator-std",sans-serif;
+  text-transform: uppercase;
+  list-style-type: none;
+  display: inline;
+  margin-right: .5em;
+  margin-left: .5em;
+  font-size: 1.15em;
+}
+
+li:hover {
+  border-bottom: 2px solid #cb3066;
+  padding-bottom: 5px;
+}
+
+ul {
+  text-align: center;
+  padding-left: 0;
+  margin-bottom: 2em;
+}
+
+.project-box {
+  display: inline-block;
+  position: relative;
+  margin: 0 5px 10px 5px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h2 {
+  font-family: "orator-std",sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  top: 35%;
+  transform: translateY(-50%);
+  z-index: 10;
+  left: 50%; 
+  transform: translateX(-50%);
+  font-size: 1.45em;
+  border-bottom: 2px solid #f8bcbb;
+  padding-bottom: 5px;
+}
+
+h2:hover {
+  border-bottom: 2px solid #cb3066;
+  padding-bottom: 5px;
+}
+
+.project-hero {
+  width: 100%;
+}
+
+footer {
+  background-color: #f6f5c1;
+  margin-top: 1em;
+  padding: 1em;
+}
+
+.sm-icon {
+  margin: 0 10px 5px 10px;
+}
+
+.foot-text {
+  font-size: 12px;
+  font-family: "jaf-bernina-sans-condensed",sans-serif;
+  font-weight: 300;
+}
+
+@media only screen and (min-width: 63em) {
+
+
+@media only screen and (min-width: 63em) {
+
+  main {
+    margin: 0 50px 0 50px;
+  }
+
+  .project-box {
+    width: 40%;
+  }
+
+  h2 {
+    top: 35%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2em;
+  }
+}
