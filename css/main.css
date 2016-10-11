@@ -27,6 +27,10 @@ body{
   text-align: center;
 }
 
+main {
+  overflow: hidden;
+}
+
 header {
   text-align: center;
 }
@@ -81,6 +85,7 @@ h2:hover {
   border-bottom: 2px solid #cb3066;
   padding-bottom: 5px;
 }
+
 .about-header {
   font-family: "orator-std",sans-serif;
   text-transform: uppercase;
@@ -92,28 +97,48 @@ h2:hover {
   font-family: "jaf-bernina-sans-condensed",sans-serif;
   font-weight: 300;
   text-align: left;
-  padding: 0 2em 1em 2em;
+  padding: 0 1em 1em 1em;
+}
+
+.button {
+  font-family: "orator-std",sans-serif;
+  text-transform: uppercase;
+  font-size: 1em;
+  text-align: center;
+  border-bottom: 2px solid #f8bcbb;
+  padding-bottom: 5px;
+}
+
+.button:hover {
+  border-bottom: 2px solid #cb3066;
+  padding-bottom: 5px;
 }
 
 .project-hero {
   width: 100%;
 }
 
+.about-text {
+  margin-bottom: 2em;
+}
+
 .about-pic {
-  padding: 0 2em 1em 2em;
+  padding: 0 1em 1em 1em;
   overflow: hidden;
 }
 
 .about-pic-1 {
   float: left;
+  width: 100%;
 }
 
 .about-pic-2 {
   float: right;
+  padding-top: .55em;
 }
 
 .about-pic-3 {
-  float: right;
+  float: left;
   padding-top: .55em;
 }
 
@@ -134,13 +159,88 @@ footer {
   font-weight: 300;
 }
 
-@media only screen and (min-width: 63em) {
+@media only screen and (min-width: 20em) {
 
+  .about-p {
+    padding: 0 1.5em 1.5em 1.5em;
+  }
+
+  .about-pic {
+    padding: 0 1em 1em 1em;
+    overflow: hidden;
+  }
+
+  .about-pic-1 {
+    float: left;
+    width: 58%;
+  }
+
+  .about-pic-2 {
+    float: right;
+    padding-top: 0;
+    width: 40%;
+  }
+
+  .about-pic-3 {
+    float: right;
+    padding-top: 1em;
+    width: 36%;
+  }
+}
+
+@media only screen and (min-width: 20em) {
+  main {
+    margin: 2em 30px;
+  }
+}
+
+
+@media only screen and (min-width: 46em) {
+
+  main {
+    margin: 5em 60px;
+  }
+
+  .about-text {
+    float: left;
+    width: 50%;
+  }
+
+  .about-pic {
+    padding: 0 1em 1em 1em;
+    overflow: hidden;
+  }
+
+  .about-pic-1 {
+    float: right;
+    width: 100%;
+    padding-top: 4em;
+  }
+
+  .about-pic-2 {
+    float: right;
+    padding-top: 1em;
+    width: 50%;
+
+  }
+
+  .about-pic-3 {
+    float: right;
+    padding-top: 1.5em;
+    width: 50%;
+    padding-right: 10%;
+  }
+
+  .button {
+    font-size: 1.5em;
+    margin-top: .5em;
+  }
+}
 
 @media only screen and (min-width: 63em) {
 
   main {
-    margin: 0 50px 0 50px;
+    margin: 5em 60px;
   }
 
   .project-box {
@@ -153,5 +253,53 @@ footer {
     left: 50%;
     transform: translateX(-50%);
     font-size: 2em;
+  }
+
+  .about-text {
+    float: left;
+    width: 40%;
+  }
+
+  .about-pic {
+    padding: 0 1em 1em 1em;
+    overflow: hidden;
+  }
+
+  .about-pic-1 {
+    float: left;
+    width: 55%;
+    padding-top: 4em;
+  }
+
+  .about-pic-2 {
+    float: left;
+    padding-top: 4em;
+    width: 45%;
+    padding-left: 1%;
+  }
+
+  .about-pic-3 {
+    float: left;
+    padding-top: 1em;
+    padding-right: 0;
+    width: 29%;
+    margin-left: 10%;
+  }
+
+  .button {
+    font-size: 1.5em;
+    margin-top: .5em;
+  }
+}
+
+@media only screen and (min-width: 65em) {
+
+  main {
+    margin: 5em 100px;
+  }
+
+  .button {
+    font-size: 1.5em;
+    margin-top: 4em;
   }
 }
