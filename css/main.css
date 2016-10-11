@@ -70,7 +70,7 @@ h2 {
   top: 35%;
   transform: translateY(-50%);
   z-index: 10;
-  left: 50%; 
+  left: 50%;
   transform: translateX(-50%);
   font-size: 1.45em;
   border-bottom: 2px solid #f8bcbb;
@@ -81,10 +81,42 @@ h2:hover {
   border-bottom: 2px solid #cb3066;
   padding-bottom: 5px;
 }
+.about-header {
+  font-family: "orator-std",sans-serif;
+  text-transform: uppercase;
+  font-size: 1.45em;
+  text-align: center;
+}
+
+.about-p {
+  font-family: "jaf-bernina-sans-condensed",sans-serif;
+  font-weight: 300;
+  text-align: left;
+  padding: 0 2em 1em 2em;
+}
 
 .project-hero {
   width: 100%;
 }
+
+.about-pic {
+  padding: 0 2em 1em 2em;
+  overflow: hidden;
+}
+
+.about-pic-1 {
+  float: left;
+}
+
+.about-pic-2 {
+  float: right;
+}
+
+.about-pic-3 {
+  float: right;
+  padding-top: .55em;
+}
+
 
 footer {
   background-color: #f6f5c1;
