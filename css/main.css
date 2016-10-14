@@ -251,6 +251,12 @@ footer {
   .project-des {
     float: left;
     width: 50%;
+    margin-bottom: 29px;
+  }
+
+  .project-pic-2 {
+    width: 29%;
+    display: inline;
   }
 }
 
