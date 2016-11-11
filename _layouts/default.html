@@ -4,12 +4,17 @@
   <meta charset="utf-8">
   <title>{{page.title}}</title>
   <meta name="description" content="Celena Stefanie's portfolio website. Feel free to contact me!">
-  <link href="css/main.css" rel="stylesheet">
-  <link href="css/grids.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/grids.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="handheldfriendly" content="true">
   <meta name="mobileoptimized" content="240">
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="twitter:card" content="Algonquin College Design Student with a mean dog obsession.">
+  <meta name="twitter:title" content="Celena Stefanie Designs">
+  <meta name="twitter:url" content="https://celenastefanie.ca">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:image" content="http://fullurl.com/to-this/image.jpg">
   <script src="https://use.typekit.net/uwk7qhx.js"></script>
   <script>try{Typekit.load({ async: true });}catch(e){}</script>
 </head>
@@ -22,8 +27,7 @@
 </ul>
 
 <header itemscope itemtype="https://schema.org/CreativeWork">
-  <strong><a href=""><img itemprop="image" class="header-img" src="images/header-img.png" alt="Celena Stefanie Designs"></a></strong>
-  <nav id="nav">
+  <a href=""><img itemprop="image" class="header-img" src="{{site.baseurl}}/images/header.png" alt="Celena Stefanie Designs"></a>
     <ul>
       <li><a href="about.html">About</a></li>
       <li><a href="index.html">Projects</a></li>
@@ -36,13 +40,13 @@
 
 <footer id="data-author" itemprop="author" itemscope itemtype="https://schema.org/Person" id="footer">
   <div class="social-media">
-    <a href=""><img itemprop="image" class="sm-icon" src="http://placehold.it/35x35" alt="Instagram"></a>
-    <a href=""><img itemprop="image" class="sm-icon" src="http://placehold.it/35x35" alt="LinkedIn"></a>
-    <a href=""><img itemprop="image" class="sm-icon" src="http://placehold.it/35x35" alt="Tumblr"></a>
+    <a href=""><img itemprop="image" class="sm-icon" src="{{site.baseurl}}/images/instagram.png" alt="Instagram"></a>
+    <a href=""><img itemprop="image" class="sm-icon" src="{{site.baseurl}}/images/linkedin.png" alt="LinkedIn"></a>
+    <a href=""><img itemprop="image" class="sm-icon" src="{{site.baseurl}}/images/twitter.png" alt="Tumblr"></a>
   </div>
   <p class="foot-text">© <span itemprop="name">Celena S. Dick 2016</p>
 </footer>
 
-  <script src="js/main.js"></script>
+  <script src="{{site.baseurl}}/js/main.js"></script>
 </body>
 </html>

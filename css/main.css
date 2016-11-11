@@ -36,8 +36,9 @@ header {
 }
 
 .header-img {
-  width: 139px;
-  opacity: 0.5;
+  width: 200px;
+  padding-top: 20px;
+  padding-bottom: 15px;
 }
 
 li {
@@ -119,13 +120,14 @@ h2:hover {
   text-transform: uppercase;
   font-size: 1.45em;
   text-align: center;
+  padding: 0 1em 1em 1em;
 }
 
 .about-p {
   font-family: "jaf-bernina-sans-condensed",sans-serif;
   font-weight: 300;
   text-align: justify;;
-  padding: 0 1em 1em 1em;
+  padding: 1em 1em 1em 1em;
 }
 
 .contact-p {
@@ -171,24 +173,9 @@ h2:hover {
   margin-bottom: 2em;
 }
 
-.about-pic {
-  padding: 0 1em 1em 1em;
-  overflow: hidden;
-}
-
 .about-pic-1 {
-  float: left;
   width: 100%;
-}
-
-.about-pic-2 {
-  float: right;
-  padding-top: .55em;
-}
-
-.about-pic-3 {
-  float: left;
-  padding-top: .55em;
+  padding-bottom: 2em;
 }
 
 .contact-img {
@@ -201,13 +188,19 @@ h2:hover {
 }
 
 footer {
-  background-color: #f6f5c1;
+  background-color: #fff;
+  border-top: 2px solid #faf183;
   margin-top: 1em;
   padding: 1em;
 }
 
+.social-media {
+  margin-top: 20px;
+}
+
 .sm-icon {
-  margin: 0 10px 5px 10px;
+  margin: 0 15px 5px 10px;
+  width: 35px;
 }
 
 .foot-text {
@@ -217,41 +210,22 @@ footer {
 }
 
 @media only screen and (min-width: 20em) {
-
-  .about-p {
-    padding: 0 1.5em 1.5em 1.5em;
-  }
-
-  .about-pic {
-    padding: 0 1em 1em 1em;
-    overflow: hidden;
-  }
-
-  .about-pic-1 {
-    float: left;
-    width: 58%;
-  }
-
-  .about-pic-2 {
-    float: right;
-    padding-top: 0;
-    width: 40%;
-  }
-
-  .about-pic-3 {
-    float: right;
-    padding-top: 1em;
-    width: 36%;
-  }
-}
-
-@media only screen and (min-width: 20em) {
   main {
     margin: 2em 30px;
   }
 
   .project-pic-2 {
     width: 32%;
+  }
+
+.about-p {
+  padding: 0 1.5em 1.5em 1.5em;
+  }
+
+.about-pic-1 {
+  float: right;
+  width: 100%;
+  }
 }
 
 @media only screen and (min-width: 25em) {
@@ -319,6 +293,17 @@ footer {
     margin-bottom: 10px;
     overflow: hidden;
   }
+
+  .about-header {
+    text-align: left;
+    padding: 0 1em 0em 1em;
+  }
+
+  .about-pic-1 {
+    float: right;
+    width: 35%;
+    padding-left: .5em;
+  }
 }
 
 
@@ -346,34 +331,15 @@ footer {
     float: right;
   }
 
-  .about-text {
+  .about-p {
     float: left;
     width: 50%;
   }
 
-  .about-pic {
-    padding: 0 1em 1em 1em;
-    overflow: hidden;
-  }
-
   .about-pic-1 {
     float: right;
-    width: 100%;
-    padding-top: 4em;
-  }
-
-  .about-pic-2 {
-    float: right;
-    padding-top: 1em;
     width: 50%;
-
-  }
-
-  .about-pic-3 {
-    float: right;
-    padding-top: 1.5em;
-    width: 50%;
-    padding-right: 10%;
+    padding-top: 0em;
   }
 
   .button {
@@ -400,35 +366,15 @@ footer {
     font-size: 1.5em;
   }
 
-  .about-text {
+  .about-p {
     float: left;
-    width: 40%;
-  }
-
-  .about-pic {
-    padding: 0 1em 1em 1em;
-    overflow: hidden;
+    width: 45%;
   }
 
   .about-pic-1 {
-    float: left;
-    width: 55%;
-    padding-top: 4em;
-  }
-
-  .about-pic-2 {
-    float: left;
-    padding-top: 4em;
+    float: right;
     width: 45%;
-    padding-left: 1%;
-  }
-
-  .about-pic-3 {
-    float: left;
-    padding-top: 1em;
-    padding-right: 0;
-    width: 29%;
-    margin-left: 10%;
+    margin: 0em 1em 4em 1em;
   }
 
   .button {
@@ -440,12 +386,12 @@ footer {
 @media only screen and (min-width: 65em) {
 
   main {
-    margin: 5em 100px;
+    margin: 5em 200px;
   }
 
   .button {
     font-size: 1.5em;
-    margin-top: 4em;
+    margin-top: 400em;
   }
 
   .project-pic-1 {
@@ -464,6 +410,12 @@ footer {
 
   .project-pic-3 {
     width: 25%;
+  }
+
+  .about-pic-1 {
+    float: right;
+    width: 37%;
+    margin: 0em 0em 4em 0em;
   }
 }
 
@@ -489,4 +441,31 @@ footer {
     width: 50%;
     margin-bottom: 45px;
   }
+
+  .about-pic-1 {
+    float: right;
+    width: 40%;
+    margin: 0em 2em 4em 5em;
+  }
+}
+
+@media only screen and (min-width: 100em) {
+
+  main {
+    margin: 5em 400px;
+  }
+
+  .about-pic-1 {
+    width: 45%;
+    margin: 0em 0em 4em 4em;
+  }
+
+}
+
+@media only screen and (min-width: 117em) {
+  .about-pic-1 {
+    width: 40%;
+    margin: 0em 2em 4em 9em;
+
+
 }
