@@ -33,6 +33,11 @@ main {
 
 header {
   text-align: center;
+  background-color: #fff;
+  border-bottom: 2px solid #faf183;
+  margin-top: 1em;
+  padding-bottom: 1em;
+
 }
 
 .header-img {
@@ -179,7 +184,6 @@ h2:hover {
 }
 
 .contact-img {
-  margin-top: 50px;
 }
 
 .social-media-preview {
@@ -200,7 +204,7 @@ footer {
 
 .sm-icon {
   margin: 0 15px 5px 10px;
-  width: 35px;
+  width: 27px;
 }
 
 .foot-text {
@@ -231,7 +235,6 @@ footer {
 @media only screen and (min-width: 25em) {
 
   .contact-img {
-    margin-top: 50px;
     width: 100%;
   }
 
@@ -278,7 +281,6 @@ footer {
   }
 
   .contact-img {
-    margin-top: 100px;
     margin-bottom: 10px;
     width: 40%;
     float: right;
@@ -325,7 +327,6 @@ footer {
   }
 
   .contact-img {
-    margin-top: 100px;
     margin-bottom: 10px;
     width: 55%;
     float: right;
