@@ -140,15 +140,7 @@ h5 {
   text-align: justify;
   font-family: "jaf-bernina-sans-condensed",sans-serif;
   font-weight: 300;
-  margin-bottom: 50px;
-}
-
-.project-caption {
-  text-align: center;
-  font-family: "jaf-bernina-sans-condensed",sans-serif;
-  font-weight: 300;
-  margin: 50px 0;
-  font-size: 13px;
+  margin-bottom: 60px;
 }
 
 .project-pic-1 {
@@ -157,6 +149,11 @@ h5 {
 
 .project-pic-2 {
   width: 100%;
+}
+
+.project-pic-3 {
+  width: 100%;
+  padding-top: 20px;
 }
 
 .button {
@@ -171,6 +168,11 @@ h5 {
 .button:hover {
   border-bottom: 2px solid #cb3066;
   padding-bottom: 5px;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 50px;
 }
 
 .project-box:hover h2 {
@@ -318,6 +320,14 @@ footer {
     margin: 20px 10px 2px 10px;
 }
 
+  .row-of-2 {
+    clear: both;
+  }
+
+  .project-pic-3 {
+    width: 70%;
+  }
+
   .project-des {
     float: left;
     width: 50%;
@@ -325,7 +335,7 @@ footer {
   }
 
   main {
-    margin: 5em 60px;
+    margin: 5em 90px;
   }
 
   .contact-main {
@@ -399,6 +409,12 @@ footer {
     font-size: 1.5em;
     margin-top: .5em;
   }
+
+  .project-pic-3 {
+    width: 49%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 
 @media only screen and (min-width: 65em) {
@@ -409,7 +425,6 @@ footer {
 
   .button {
     font-size: 1.5em;
-    margin-top: 400em;
   }
 
   .project-pic-1 {
