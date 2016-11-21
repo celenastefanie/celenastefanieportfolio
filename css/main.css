@@ -443,8 +443,12 @@ footer {
 
   .about-pic-1 {
     float: right;
-    width: 37%;
-    margin: 0em 0em 5em 0em;
+    width: 47%;
+    margin: 0em 0em 1em 0em;
+  }
+
+  .about-p {
+    width: 53%;
   }
 
   .project-box {
@@ -481,8 +485,12 @@ footer {
 
   .about-pic-1 {
     float: right;
-    width: 40%;
-    margin: 0em 2em 4em 5em;
+    width: 45%;
+    margin: 0em 2em 4em 1em;
+  }
+
+  .about-p {
+    width: 48%;
   }
 }
 
